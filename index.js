@@ -1,12 +1,5 @@
 "use strict";
 
-
-//2 ZIP-Files abgeben:
-//projekt mit erweiterten passwort
-//kommandozeilenparameter projekt
-
-//Kommentar mit github repo und npm eintrag (https://www.npmjs.com/; Schreiben, dass es ein Schulprojekt ist)
-
 function passwordGenerator(passwordLength, useSpecialCharacters) {
     let avalibleSymbols = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890";
     if (useSpecialCharacters) {
@@ -22,9 +15,7 @@ function passwordGenerator(passwordLength, useSpecialCharacters) {
     return generatedPassword;
 }
 
-const password = passwordGenerator(8, true);
-console.log(password);
+// const password = passwordGenerator(8, true);
+// console.log(password);
 
 module.exports = passwordGenerator;
-
-//pnpm
