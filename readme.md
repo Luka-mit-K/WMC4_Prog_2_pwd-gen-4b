@@ -1,4 +1,4 @@
-# Password Generator
+# Password Generator - DO NOT USE (School Project)
 This Module enables a way of **generating a random password**.
 
 It has the following parameters:
@@ -11,5 +11,5 @@ It has the following parameters:
 
 ## Please Note!
 - There is no error handling in any kind.
-- This is a school test project and I, the owner (L. F.), will not be liable for anything if used.
+- This is a school test project and I, the owner, will not be liable in any kind if used without authorization.
 - **By using this tool you accept all the information above.**
